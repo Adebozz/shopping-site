@@ -1,0 +1,80 @@
+.catelog{
+    width:80%;
+    height: fit-content;
+}
+#product1{
+    text-align: center;
+    
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#product .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 30px 10px;
+    transition: 0.2s ease-in;
+   
+}
+
+#product2 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+#product2 .pro img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+#product2 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product2 .pro .des span{
+    color:  #606063;
+    font-size: 12px;
+}
+
+#product2 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product2 .pro .des i{
+    font-size: 12px;
+    color:rgb(243, 181, 25);
+
+}
+#product2 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product2 .pro .cart{
+width: 40px;
+height: 40px;
+background-color: #e8f6ea;
+line-height: 40px;
+border-radius: 50px;
+font-weight: 500;
+color: #088178;
+border: 1px solid #cce7d0;
+position:static;
+
+margin-left: 70%;
+
+
+}
